@@ -1,5 +1,4 @@
 import {NgModule} from "@angular/core";
-import {BrowserModule} from "@angular/platform-browser";
 
 import {TaskComponent} from "./task/task.component";
 import {TasksComponent} from "./tasks.component";
