@@ -4,10 +4,8 @@ import {TasksService} from "../tasks.service";
 
 @Component({
   selector: 'app-new-task',
-  standalone: true,
-  imports: [
-    FormsModule
-  ],
+  //Here we're importing a module into a standalone component. We can mix the two versions of components
+  //This can be helpful when we migrate from module to standalone components.
   templateUrl: './new-task.component.html',
   styleUrl: './new-task.component.css'
 })
